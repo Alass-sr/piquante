@@ -486,3 +486,288 @@
 {"level":"info","message":"init","timestamp":"2022-09-16 11:48:18 AM +0200"}
 {"level":"info","message":"signup save ok for test4@gmail.com","timestamp":"2022-09-16 11:58:55 AM +0200"}
 {"level":"info","message":"init","timestamp":"2022-09-16 12:01:19 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 12:13:47 PM +0200"}
+{"level":"info","message":"signup save ok for test4@gmail.com","timestamp":"2022-09-16 12:16:40 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 12:20:44 PM +0200"}
+{"level":"error","message":"error incorrect user => test4@gmail.com","timestamp":"2022-09-16 12:21:54 PM +0200"}
+{"level":"error","message":"error incorrect user => test4@gmail.com","timestamp":"2022-09-16 12:22:00 PM +0200"}
+{"level":"error","message":"error save signup ValidationError: email: Error, expected `email` to be unique. Value: `3816f75993c03f38172e78cf5d6c399fb64b6ce96c4f22059ed143eb6e7d2404`","timestamp":"2022-09-16 12:23:08 PM +0200"}
+{"level":"error","message":"error incorrect user => test4@gmail.com","timestamp":"2022-09-16 12:23:45 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 12:25:09 PM +0200"}
+{"level":"error","message":"error incorrect user => test4@gmail.com","timestamp":"2022-09-16 12:26:13 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 12:32:00 PM +0200"}
+{"level":"error","message":"error incorrect user => test4@gmail.com","timestamp":"2022-09-16 12:32:10 PM +0200"}
+{"level":"error","message":"error incorrect user => test4@gmail.com","timestamp":"2022-09-16 12:32:12 PM +0200"}
+{"level":"info","message":"signup save ok for test5@gmail.com","timestamp":"2022-09-16 12:35:00 PM +0200"}
+{"level":"error","message":"error incorrect user => test5@gmail.com","timestamp":"2022-09-16 12:35:38 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 12:37:38 PM +0200"}
+{"level":"error","message":"error incorrect user => test4@gmail.com","timestamp":"2022-09-16 12:38:26 PM +0200"}
+{"level":"error","message":"global error signup TypeError: User.save is not a function","timestamp":"2022-09-16 12:45:17 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 12:46:31 PM +0200"}
+{"level":"info","message":"signup save ok for test6@gmail.com","timestamp":"2022-09-16 12:47:36 PM +0200"}
+{"level":"error","message":"error incorrect user => test6@gmail.com","timestamp":"2022-09-16 12:47:51 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 12:49:35 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 12:49:59 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 12:50:56 PM +0200"}
+{"level":"error","message":"error incorrect user => test6@gmail.com","timestamp":"2022-09-16 12:51:07 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 12:52:25 PM +0200"}
+{"level":"error","message":"error incorrect user => test6@gmail.com","timestamp":"2022-09-16 12:52:34 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:08:23 PM +0200"}
+{"level":"error","message":"error incorrect user => JqE6&;m888X7u9Hf3eVK}gp$e-E^@7","timestamp":"2022-09-16 01:08:35 PM +0200"}
+{"level":"error","message":"error incorrect user => JqE6&;m888X7u9Hf3eVK}gp$e-E^@7","timestamp":"2022-09-16 01:08:38 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:09:06 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:09:57 PM +0200"}
+{"level":"error","message":"error incorrect user => test6@gmail.com","timestamp":"2022-09-16 01:10:14 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:10:23 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:10:36 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:14:17 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:16:17 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:16:18 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:16:53 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:17:03 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:17:18 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:17:23 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:17:24 PM +0200"}
+{"level":"error","message":"error incorrect user => test4@gmail.com","timestamp":"2022-09-16 01:17:31 PM +0200"}
+{"level":"error","message":"error incorrect user => test4@gmail.com","timestamp":"2022-09-16 01:17:32 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:18:02 PM +0200"}
+{"level":"error","message":"error incorrect user => test6@gmail.com","timestamp":"2022-09-16 01:18:39 PM +0200"}
+{"level":"error","message":"global error signup ReferenceError: Cannot access 'User' before initialization","timestamp":"2022-09-16 01:19:02 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:19:42 PM +0200"}
+{"level":"error","message":"global error signup ReferenceError: Cannot access 'User' before initialization","timestamp":"2022-09-16 01:20:09 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:20:53 PM +0200"}
+{"level":"error","message":"global error signup ReferenceError: Cannot access 'User' before initialization","timestamp":"2022-09-16 01:20:58 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:26:01 PM +0200"}
+{"level":"error","message":"global error signup ReferenceError: User is not defined","timestamp":"2022-09-16 01:26:08 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:26:17 PM +0200"}
+{"level":"error","message":"global error signup ReferenceError: User is not defined","timestamp":"2022-09-16 01:26:20 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:26:34 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:26:36 PM +0200"}
+{"level":"info","message":"signup save ok for test7@gmail.com","timestamp":"2022-09-16 01:26:37 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:26:54 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:26:55 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:27:08 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:27:10 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:27:13 PM +0200"}
+{"level":"error","message":"global error signup TypeError: User.save is not a function","timestamp":"2022-09-16 01:27:24 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:27:33 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:27:35 PM +0200"}
+{"level":"info","message":"signup save ok for test8@gmail.com","timestamp":"2022-09-16 01:27:36 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:27:47 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:27:48 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:27:51 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:28:29 PM +0200"}
+{"level":"error","message":"error incorrect user => test8@gmail.com","timestamp":"2022-09-16 01:28:33 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:29:25 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 01:30:00 PM +0200"}
+{"level":"error","message":"error incorrect user => test8@gmail.com","timestamp":"2022-09-16 01:30:03 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:12:17 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:12:30 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:12:32 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:13:03 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:16:32 PM +0200"}
+{"level":"error","message":"error incorrect user => test10@gmail.com","timestamp":"2022-09-16 02:19:08 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:24:10 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:25:18 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:25:23 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:25:47 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:27:13 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:27:20 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:27:25 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:27:49 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:28:11 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:28:13 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:28:15 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:28:18 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:58:06 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:58:28 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:58:33 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 02:58:34 PM +0200"}
+{"level":"info","message":"signup save ok for a.a@gmail.com","timestamp":"2022-09-16 03:05:34 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:09:47 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:10:03 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:10:10 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:24:47 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:25:58 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:26:10 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:26:25 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:26:28 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:26:52 PM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-16 03:27:21 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:27:49 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:27:56 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:27:59 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:28:04 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:28:08 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:28:19 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:28:24 PM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-16 03:28:31 PM +0200"}
+{"level":"error","message":"invalid signature","name":"JsonWebTokenError","timestamp":"2022-09-16 03:28:31 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:30:38 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:30:42 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:30:50 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:30:52 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:30:57 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:31:03 PM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-16 03:31:22 PM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0NzQ5ZTQxNTViZDk2Njc0NmNhNzgiLCJpYXQiOjE2NjMzMzQ1OTUsImV4cCI6MTY2MzQyMDk5NX0.CZ0htiS-mvZZ6IyS40joBhh4UVmwAX9pi5C6W4I8lqk","timestamp":"2022-09-16 03:31:22 PM +0200"}
+{"level":"error","message":"invalid signature","name":"JsonWebTokenError","timestamp":"2022-09-16 03:31:22 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:32:18 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:32:20 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:32:32 PM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-16 03:32:36 PM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0NzQ5ZTQxNTViZDk2Njc0NmNhNzgiLCJpYXQiOjE2NjMzMzQ1OTUsImV4cCI6MTY2MzQyMDk5NX0.CZ0htiS-mvZZ6IyS40joBhh4UVmwAX9pi5C6W4I8lqk","timestamp":"2022-09-16 03:32:36 PM +0200"}
+{"level":"error","message":"invalid signature","name":"JsonWebTokenError","timestamp":"2022-09-16 03:32:36 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 03:37:08 PM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-16 03:37:46 PM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0NzQ5ZTQxNTViZDk2Njc0NmNhNzgiLCJpYXQiOjE2NjMzMzU0NjYsImV4cCI6MTY2MzQyMTg2Nn0.x68Pvpy4LAyJjsI6yBx6EvlsteJkO0tw0AV_x5xf3wY","timestamp":"2022-09-16 03:37:46 PM +0200"}
+{"level":"error","message":"invalid signature","name":"JsonWebTokenError","timestamp":"2022-09-16 03:37:46 PM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-16 03:38:16 PM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0NzQ5ZTQxNTViZDk2Njc0NmNhNzgiLCJpYXQiOjE2NjMzMzU0NjYsImV4cCI6MTY2MzQyMTg2Nn0.x68Pvpy4LAyJjsI6yBx6EvlsteJkO0tw0AV_x5xf3wY","timestamp":"2022-09-16 03:38:16 PM +0200"}
+{"level":"error","message":"invalid signature","name":"JsonWebTokenError","timestamp":"2022-09-16 03:38:16 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 04:17:41 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 04:19:07 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 04:19:40 PM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-16 04:19:50 PM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0NzQ5ZTQxNTViZDk2Njc0NmNhNzgiLCJpYXQiOjE2NjMzMzU0NjYsImV4cCI6MTY2MzQyMTg2Nn0.x68Pvpy4LAyJjsI6yBx6EvlsteJkO0tw0AV_x5xf3wY","timestamp":"2022-09-16 04:19:50 PM +0200"}
+{"level":"error","message":"secret or public key must be provided","name":"JsonWebTokenError","timestamp":"2022-09-16 04:19:50 PM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-16 04:19:55 PM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0NzQ5ZTQxNTViZDk2Njc0NmNhNzgiLCJpYXQiOjE2NjMzMzU0NjYsImV4cCI6MTY2MzQyMTg2Nn0.x68Pvpy4LAyJjsI6yBx6EvlsteJkO0tw0AV_x5xf3wY","timestamp":"2022-09-16 04:19:55 PM +0200"}
+{"level":"error","message":"secret or public key must be provided","name":"JsonWebTokenError","timestamp":"2022-09-16 04:19:55 PM +0200"}
+{"level":"error","message":"error for brypt compare Error: secretOrPrivateKey must have a value","timestamp":"2022-09-16 04:21:58 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 04:24:59 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 11:12:01 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 11:16:15 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 11:16:21 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 11:16:25 PM +0200"}
+{"date":"Fri Sep 16 2022 23:16:25 GMT+0200 (heure d’été d’Europe centrale)","error":{},"exception":true,"level":"error","message":"uncaughtException: missing ) after argument list\nC:\\Users\\sarra\\Documents\\Sarr_Alassane_P6_Piquante\\backend\\controllers\\user.js:67\n              `$`\n              ^^^\n\nSyntaxError: missing ) after argument list\n    at Object.compileFunction (node:vm:360:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1055:15)\n    at Module._compile (node:internal/modules/cjs/loader:1090:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)\n    at Module.load (node:internal/modules/cjs/loader:1004:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:839:12)\n    at Module.require (node:internal/modules/cjs/loader:1028:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\sarra\\Documents\\Sarr_Alassane_P6_Piquante\\backend\\routes\\user.js:6:18)\n    at Module._compile (node:internal/modules/cjs/loader:1126:14)","os":{"loadavg":[0,0,0],"uptime":86822},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\sarra\\Documents\\Sarr_Alassane_P6_Piquante\\backend\\server.js"],"cwd":"C:\\Users\\sarra\\Documents\\Sarr_Alassane_P6_Piquante\\backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18564412,"external":23622968,"heapTotal":35901440,"heapUsed":23244928,"rss":67190784},"pid":14104,"uid":null,"version":"v16.17.0"},"stack":"C:\\Users\\sarra\\Documents\\Sarr_Alassane_P6_Piquante\\backend\\controllers\\user.js:67\n              `$`\n              ^^^\n\nSyntaxError: missing ) after argument list\n    at Object.compileFunction (node:vm:360:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1055:15)\n    at Module._compile (node:internal/modules/cjs/loader:1090:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)\n    at Module.load (node:internal/modules/cjs/loader:1004:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:839:12)\n    at Module.require (node:internal/modules/cjs/loader:1028:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\sarra\\Documents\\Sarr_Alassane_P6_Piquante\\backend\\routes\\user.js:6:18)\n    at Module._compile (node:internal/modules/cjs/loader:1126:14)","timestamp":"2022-09-16 11:16:25 PM +0200","trace":[{"column":18,"file":"node:vm","function":"Object.compileFunction","line":360,"method":"compileFunction","native":false},{"column":15,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1055,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1090,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1180,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1004,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":839,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1028,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":18,"file":"C:\\Users\\sarra\\Documents\\Sarr_Alassane_P6_Piquante\\backend\\routes\\user.js","function":null,"line":6,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1126,"method":"_compile","native":false}]}
+{"level":"info","message":"init","timestamp":"2022-09-16 11:16:27 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 11:16:31 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 11:16:35 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 11:16:43 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 11:16:45 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 11:16:54 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 11:16:56 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 11:17:03 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 11:17:04 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 11:17:08 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 11:18:33 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 11:18:37 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 11:19:51 PM +0200"}
+{"level":"error","message":"error incorrect user => test10@gmail.com","timestamp":"2022-09-16 11:22:39 PM +0200"}
+{"level":"info","message":"signup save ok for test10@gmail.com","timestamp":"2022-09-16 11:25:06 PM +0200"}
+{"level":"error","message":"error for brypt compare Error: secretOrPrivateKey must have a value","timestamp":"2022-09-16 11:25:16 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-16 11:26:15 PM +0200"}
+{"level":"info","message":"signup save ok for test0@gmail.com","timestamp":"2022-09-16 11:29:14 PM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-16 11:29:14 PM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0ZWFhOTYyNjMzOTgzOWNiNWJhZmYiLCJpYXQiOjE2NjMzNjM3NTQsImV4cCI6MTY2MzQ1MDE1NH0.spXSgdECxZfMT__h4IDYT4hPcYgzcqZ0ZXC2ruEBFno","timestamp":"2022-09-16 11:29:14 PM +0200"}
+{"level":"info","message":{"exp":1663450154,"iat":1663363754,"userId":"6324eaa9626339839cb5baff"},"timestamp":"2022-09-16 11:29:14 PM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-16 11:29:53 PM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0ZWFhOTYyNjMzOTgzOWNiNWJhZmYiLCJpYXQiOjE2NjMzNjM3NTQsImV4cCI6MTY2MzQ1MDE1NH0.spXSgdECxZfMT__h4IDYT4hPcYgzcqZ0ZXC2ruEBFno","timestamp":"2022-09-16 11:29:53 PM +0200"}
+{"level":"info","message":{"exp":1663450154,"iat":1663363754,"userId":"6324eaa9626339839cb5baff"},"timestamp":"2022-09-16 11:29:53 PM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-16 11:30:28 PM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0ZWFhOTYyNjMzOTgzOWNiNWJhZmYiLCJpYXQiOjE2NjMzNjM3NTQsImV4cCI6MTY2MzQ1MDE1NH0.spXSgdECxZfMT__h4IDYT4hPcYgzcqZ0ZXC2ruEBFno","timestamp":"2022-09-16 11:30:28 PM +0200"}
+{"level":"info","message":{"exp":1663450154,"iat":1663363754,"userId":"6324eaa9626339839cb5baff"},"timestamp":"2022-09-16 11:30:28 PM +0200"}
+{"level":"error","message":"error incorrect user => test1'@gmail.com","timestamp":"2022-09-16 11:48:08 PM +0200"}
+{"level":"info","message":"signup save ok for test14@gmail.com","timestamp":"2022-09-16 11:48:35 PM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:00:14 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:07:21 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:07:52 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:07:53 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:07:58 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:08:03 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:08:05 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:08:09 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:08:12 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:08:35 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:08:36 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:08:38 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:08:47 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:08:49 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:09:16 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:09:18 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:09:30 AM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-17 12:09:54 AM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0ZWFhOTYyNjMzOTgzOWNiNWJhZmYiLCJpYXQiOjE2NjMzNjM3NTQsImV4cCI6MTY2MzQ1MDE1NH0.spXSgdECxZfMT__h4IDYT4hPcYgzcqZ0ZXC2ruEBFno","timestamp":"2022-09-17 12:09:54 AM +0200"}
+{"level":"info","message":{"exp":1663450154,"iat":1663363754,"userId":"6324eaa9626339839cb5baff"},"timestamp":"2022-09-17 12:09:54 AM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-17 12:10:19 AM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0ZWFhOTYyNjMzOTgzOWNiNWJhZmYiLCJpYXQiOjE2NjMzNjM3NTQsImV4cCI6MTY2MzQ1MDE1NH0.spXSgdECxZfMT__h4IDYT4hPcYgzcqZ0ZXC2ruEBFno","timestamp":"2022-09-17 12:10:19 AM +0200"}
+{"level":"info","message":{"exp":1663450154,"iat":1663363754,"userId":"6324eaa9626339839cb5baff"},"timestamp":"2022-09-17 12:10:19 AM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-17 12:10:21 AM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0ZWFhOTYyNjMzOTgzOWNiNWJhZmYiLCJpYXQiOjE2NjMzNjM3NTQsImV4cCI6MTY2MzQ1MDE1NH0.spXSgdECxZfMT__h4IDYT4hPcYgzcqZ0ZXC2ruEBFno","timestamp":"2022-09-17 12:10:21 AM +0200"}
+{"level":"info","message":{"exp":1663450154,"iat":1663363754,"userId":"6324eaa9626339839cb5baff"},"timestamp":"2022-09-17 12:10:21 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:11:02 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:11:03 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:11:22 AM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-17 12:12:27 AM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0ZWFhOTYyNjMzOTgzOWNiNWJhZmYiLCJpYXQiOjE2NjMzNjM3NTQsImV4cCI6MTY2MzQ1MDE1NH0.spXSgdECxZfMT__h4IDYT4hPcYgzcqZ0ZXC2ruEBFno","timestamp":"2022-09-17 12:12:27 AM +0200"}
+{"level":"info","message":{"exp":1663450154,"iat":1663363754,"userId":"6324eaa9626339839cb5baff"},"timestamp":"2022-09-17 12:12:27 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:17:29 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:20:02 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:20:07 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:20:08 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:20:12 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:20:18 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:20:20 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:20:23 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:20:25 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:20:34 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:20:38 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:20:42 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:20:52 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:21:41 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:21:51 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:21:55 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:21:59 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:22:05 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:22:11 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:22:25 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:23:37 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:24:14 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:32:26 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:32:54 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:39:35 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:39:44 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:40:14 AM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-17 12:40:51 AM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0ZWFhOTYyNjMzOTgzOWNiNWJhZmYiLCJpYXQiOjE2NjMzNjM3NTQsImV4cCI6MTY2MzQ1MDE1NH0.spXSgdECxZfMT__h4IDYT4hPcYgzcqZ0ZXC2ruEBFno","timestamp":"2022-09-17 12:40:51 AM +0200"}
+{"level":"info","message":{"exp":1663450154,"iat":1663363754,"userId":"6324eaa9626339839cb5baff"},"timestamp":"2022-09-17 12:40:51 AM +0200"}
+{"level":"info","message":"createSauce","timestamp":"2022-09-17 12:40:51 AM +0200"}
+{"level":"info","message":"createSauce req body = {\"sauce\":\"{\\\"name\\\":\\\"nouvelle sauce\\\",\\\"manufacturer\\\":\\\"fait maison\\\",\\\"description\\\":\\\"moi même\\\",\\\"mainPepper\\\":\\\"ail, oignon, persil\\\",\\\"heat\\\":4,\\\"userId\\\":\\\"6324eaa9626339839cb5baff\\\"}\"}","timestamp":"2022-09-17 12:40:51 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:41:51 AM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-17 12:42:08 AM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0ZWFhOTYyNjMzOTgzOWNiNWJhZmYiLCJpYXQiOjE2NjMzNjM3NTQsImV4cCI6MTY2MzQ1MDE1NH0.spXSgdECxZfMT__h4IDYT4hPcYgzcqZ0ZXC2ruEBFno","timestamp":"2022-09-17 12:42:08 AM +0200"}
+{"level":"info","message":{"exp":1663450154,"iat":1663363754,"userId":"6324eaa9626339839cb5baff"},"timestamp":"2022-09-17 12:42:08 AM +0200"}
+{"level":"info","message":"createSauce","timestamp":"2022-09-17 12:42:08 AM +0200"}
+{"level":"info","message":"createSauce req body = {\"sauce\":\"{\\\"name\\\":\\\"nouvelle sauce\\\",\\\"manufacturer\\\":\\\"fait maison\\\",\\\"description\\\":\\\"moi même\\\",\\\"mainPepper\\\":\\\"ail, oignon, persil\\\",\\\"heat\\\":4,\\\"userId\\\":\\\"6324eaa9626339839cb5baff\\\"}\"}","timestamp":"2022-09-17 12:42:08 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:42:31 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:42:33 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:54:11 AM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-17 12:54:21 AM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0ZWFhOTYyNjMzOTgzOWNiNWJhZmYiLCJpYXQiOjE2NjMzNjM3NTQsImV4cCI6MTY2MzQ1MDE1NH0.spXSgdECxZfMT__h4IDYT4hPcYgzcqZ0ZXC2ruEBFno","timestamp":"2022-09-17 12:54:21 AM +0200"}
+{"level":"info","message":{"exp":1663450154,"iat":1663363754,"userId":"6324eaa9626339839cb5baff"},"timestamp":"2022-09-17 12:54:21 AM +0200"}
+{"level":"info","message":"createSauce","timestamp":"2022-09-17 12:54:21 AM +0200"}
+{"level":"info","message":"createSauce req body = {\"sauce\":\"{\\\"name\\\":\\\"nouvelle sauce\\\",\\\"manufacturer\\\":\\\"fait maison\\\",\\\"description\\\":\\\"moi même\\\",\\\"mainPepper\\\":\\\"ail, oignon, persil\\\",\\\"heat\\\":4,\\\"userId\\\":\\\"6324eaa9626339839cb5baff\\\"}\"}","timestamp":"2022-09-17 12:54:21 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:59:18 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 12:59:57 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 01:00:03 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 01:00:08 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 01:00:14 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 01:00:19 AM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-17 01:00:30 AM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0ZWFhOTYyNjMzOTgzOWNiNWJhZmYiLCJpYXQiOjE2NjMzNjM3NTQsImV4cCI6MTY2MzQ1MDE1NH0.spXSgdECxZfMT__h4IDYT4hPcYgzcqZ0ZXC2ruEBFno","timestamp":"2022-09-17 01:00:30 AM +0200"}
+{"level":"info","message":{"exp":1663450154,"iat":1663363754,"userId":"6324eaa9626339839cb5baff"},"timestamp":"2022-09-17 01:00:30 AM +0200"}
+{"level":"info","message":"createSauce","timestamp":"2022-09-17 01:00:30 AM +0200"}
+{"level":"info","message":"createSauce req body = {\"sauce\":\"{\\\"name\\\":\\\"nouvelle sauce\\\",\\\"manufacturer\\\":\\\"fait maison\\\",\\\"description\\\":\\\"moi même\\\",\\\"mainPepper\\\":\\\"ail, oignon, persil\\\",\\\"heat\\\":4,\\\"userId\\\":\\\"6324eaa9626339839cb5baff\\\"}\"}","timestamp":"2022-09-17 01:00:30 AM +0200"}
+{"level":"info","message":"init","timestamp":"2022-09-17 01:00:57 AM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-17 01:01:10 AM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0ZWFhOTYyNjMzOTgzOWNiNWJhZmYiLCJpYXQiOjE2NjMzNjM3NTQsImV4cCI6MTY2MzQ1MDE1NH0.spXSgdECxZfMT__h4IDYT4hPcYgzcqZ0ZXC2ruEBFno","timestamp":"2022-09-17 01:01:10 AM +0200"}
+{"level":"info","message":{"exp":1663450154,"iat":1663363754,"userId":"6324eaa9626339839cb5baff"},"timestamp":"2022-09-17 01:01:10 AM +0200"}
+{"level":"info","message":"createSauce","timestamp":"2022-09-17 01:01:10 AM +0200"}
+{"level":"info","message":"createSauce req body = {\"sauce\":\"{\\\"name\\\":\\\"nouvelle sauce\\\",\\\"manufacturer\\\":\\\"fait maison\\\",\\\"description\\\":\\\"moi même\\\",\\\"mainPepper\\\":\\\"ail, oignon, persil\\\",\\\"heat\\\":4,\\\"userId\\\":\\\"6324eaa9626339839cb5baff\\\"}\"}","timestamp":"2022-09-17 01:01:10 AM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-17 01:01:15 AM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0ZWFhOTYyNjMzOTgzOWNiNWJhZmYiLCJpYXQiOjE2NjMzNjM3NTQsImV4cCI6MTY2MzQ1MDE1NH0.spXSgdECxZfMT__h4IDYT4hPcYgzcqZ0ZXC2ruEBFno","timestamp":"2022-09-17 01:01:15 AM +0200"}
+{"level":"info","message":{"exp":1663450154,"iat":1663363754,"userId":"6324eaa9626339839cb5baff"},"timestamp":"2022-09-17 01:01:15 AM +0200"}
+{"level":"info","message":"auth","timestamp":"2022-09-17 01:01:45 AM +0200"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI0ZWFhOTYyNjMzOTgzOWNiNWJhZmYiLCJpYXQiOjE2NjMzNjM3NTQsImV4cCI6MTY2MzQ1MDE1NH0.spXSgdECxZfMT__h4IDYT4hPcYgzcqZ0ZXC2ruEBFno","timestamp":"2022-09-17 01:01:45 AM +0200"}
+{"level":"info","message":{"exp":1663450154,"iat":1663363754,"userId":"6324eaa9626339839cb5baff"},"timestamp":"2022-09-17 01:01:45 AM +0200"}
