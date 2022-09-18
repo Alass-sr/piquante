@@ -43,6 +43,10 @@ exports.getOneSauce = (req, res, next) => {
 };
 
 exports.modifySauce = (req, res, next) => {
+
+  log.info ("modifySauce");
+  log.info (`modifySauce req body = ${JSON.stringify(req.body)}`);
+
   const sauceObject = req.file
     ? {
         ...JSON.parse(req.body.sauce),
