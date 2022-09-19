@@ -52,6 +52,43 @@ exports.addLikeOrDislike = (req, res, next) => {
           .then(() => res.status(201).json({ message: "Sauce like 0" }))
           .catch((error) => res.status(400).json({ error }));
       }
+
+      if (
+        !objet.usersDisliked.includes(req.body.userId) &&
+        req.body.like === -1
+      ) {
+        console.log("--->userId est dans usersDisliked et disLikes = 1");
+
+        //Mis à jour BDD
+        Sauce.updateOne(
+          { _id: req.params.id },
+          {
+            $inc: { dislikes: 1 },
+            $push: { usersDisliked: req.body.userId },
+          }
+        )
+          .then(() => res.status(201).json({ message: "Sauce dislike +1" }))
+          .catch((error) => res.status(400).json({ error }));
+      }
+
+      // Après un like = -1 on met un like = 0
+      if (
+        objet.usersDisliked.includes(req.body.userId) &&
+        req.body.like === 0
+      ) {
+        console.log("--->userId est dans usersDisliked et like = 0");
+
+        //Mis à jour BDD
+        Sauce.updateOne(
+          { _id: req.params.id },
+          {
+            $inc: { dislikes: -1 },
+            $pull: { usersDisliked: req.body.userId },
+          }
+        )
+          .then(() => res.status(201).json({ message: "Sauce like 0" }))
+          .catch((error) => res.status(400).json({ error }));
+      }
     })
     .catch((error) => res.status(404).json({ error }));
 };
