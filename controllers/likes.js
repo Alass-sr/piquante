@@ -1,4 +1,4 @@
-//Imporattion de models de la BD
+/*//Imporattion de models de la BD
 const Sauce = require("../models/sauces");
 
 exports.addLikeOrDislike = (req, res, next) => {
@@ -91,4 +91,4 @@ exports.addLikeOrDislike = (req, res, next) => {
       }
     })
     .catch((error) => res.status(404).json({ error }));
-};
+};*/
