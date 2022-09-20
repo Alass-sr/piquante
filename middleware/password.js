@@ -1,9 +1,11 @@
-const passwordValidator  =  require ( 'password-validator' ) ;
+// Importation de password-validator
+const passwordValidator  =  require ( "password-validator" ) ;
 
+// Création du schéma
 const passwordSchema = new passwordValidator();
 
 passwordSchema 
-. est ( ) . min ( 5 )                                     // Longueur minimale 8 
+. est ( ) . min ( 8 )                                     // Longueur minimale 8 
 . est ( ) . max ( 100 )                                   // Longueur maximale 100 
 . a ( ) . majuscule ( )                               // Doit contenir des lettres majuscules 
 . a ( ) . minuscule ( )                               // Doit contenir des lettres minuscules 
@@ -15,10 +17,10 @@ console.log("---->CONTENU: passwordSchema");
 console.log(passwordSchema);
 
 
-module.exports = (req, res, next) => {
-    if(passwordSchema.validate(req.body.password)){
-
-    } else {
-        return res.status(400).json({error: `Le mot de pass n'est pas assez fort ${passwordSchema.validate(req.body.password , { list: true })}`})
-    }
-}
+// module.exports = (req, res, next) => {
+//     if(passwordSchema.validate(req.body.password)){
+//         next();
+//     } else {
+//         return res.status(400).json({error: `Le mot de pass n'est pas assez fort ${passwordSchema.validate(req.body.password , { list: true })}`})
+//     }
+// }
