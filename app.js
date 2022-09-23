@@ -7,6 +7,9 @@ const sauceRoutes = require("./routes/sauces");
 const userRoutes = require("./routes/user");
 const path = require('path');
 
+const helmet = require('helmet'); 
+const mongoSanitize = require('express-mongo-sanitize');
+
 // Importation de mongoose
 mongoose
   .connect(
@@ -17,6 +20,8 @@ mongoose
   .catch(() => console.log("Connexion à MongoDB échouée !"));
 
 const app = express();
+
+app.use(helmet());
 
 app.use(express.json());
 
@@ -34,6 +39,8 @@ app.use((req, res, next) => {
 });
 
 app.use(bodyParser.json());
+
+app.use(mongoSanitize());
 
 app.use("/api/sauces", sauceRoutes);
 app.use("/api/auth", userRoutes);
