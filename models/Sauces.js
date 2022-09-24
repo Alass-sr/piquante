@@ -1,5 +1,7 @@
+// On importe mongoose
 const mongoose = require("mongoose");
 
+// Création d'un schema mangoose pour que les données de la base MongoDB
 const sauceSchema = mongoose.Schema({
   userId: { type: String, required: true },
   name: { type: String, required: true },
@@ -14,4 +16,5 @@ const sauceSchema = mongoose.Schema({
   usersDisliked: { type: [String] },
 });
 
+// On exporte ce shéma de données, on va donc pouvoir utiliser ce modèle pour intéragir avec l'application
 module.exports = mongoose.model("Sauces", sauceSchema);

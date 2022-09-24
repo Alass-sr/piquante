@@ -1,3 +1,4 @@
+// Importation de validator
 const validator = require('validator');
 
 module.exports = (req, res, next) => {
