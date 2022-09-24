@@ -1,5 +1,5 @@
 const Sauce = require("../models/sauces");
-// const fs = require("fs");
+const fs = require("fs");
 
 const log = require("../utils/winston");
 
@@ -8,7 +8,7 @@ exports.createSauce = (req, res, next) => {
   log.info(`createSauce req body = ${JSON.stringify(req.body)}`);
 
   const sauceObject = JSON.parse(req.body.sauce);
-  // delete sauceObject._id;
+  delete sauceObject._id;
   delete sauceObject._userId;
   const sauce = new Sauce({
     ...sauceObject,
@@ -17,14 +17,15 @@ exports.createSauce = (req, res, next) => {
       req.file.filename
     }`,
   });
+
   sauce
     .save()
     .then(() => {
       res.status(201).json({ message: "Objet enregistré !" });
     })
-    .catch((error) => {
-      res.status(400).json({ error });
-    });
+    .catch(error => {
+      res.status(400).json({ error })
+    })
 };
 
 exports.getAllSauces = (req, res, next) => {
@@ -63,15 +64,7 @@ exports.modifySauce = (req, res, next) => {
           { ...sauceObject, _id: req.params.id }
         )
           .then(() => res.status(200).json({ message: "Objet modifié!" }))
-          .catch((error) => res.status(401).json({ error }));
-        // const filename = sauce.imageUrl.split("/images")[1];
-        // fs.unlink(`images/${filename}`, () => {
-        //   Sauce.updateOne({ _id: req.params.id })
-        //     .then(() => {
-        //       res.status(200).json({ message: "Objet supprimé !" });
-        //     })
-        //     .catch((error) => res.status(401).json({ error }));
-        // });
+          .catch(error => res.status(401).json({ error }));
       }
     })
     .catch((error) => {
@@ -80,42 +73,36 @@ exports.modifySauce = (req, res, next) => {
 };
 
 exports.deleteSauce = (req, res, next) => {
-  Sauce.findOne({ _id: req.params.id }).then((sauce) => {
-    if (sauce.userId != req.auth.userId) {
-      res.statuts(200).json();
-    }
-  });
-
-  Sauce.deleteOne({ _id: req.params.id })
-    .then(() => res.status(200).json({ message: "objet supprimé !" }))
-    .catch((error) => res.status(400).json({ error }));
+  Sauce.findOne({ _id: req.params.id })
+    .then((sauce) => {
+      if (sauce.userId != req.auth.userId) {
+        res.status(401).json({ message: "Not authorized" });
+      } else {
+        const filename = sauce.imageUrl.split("/images/")[1];
+        fs.unlink(`images/${filename}`, () => {
+          Sauce.deleteOne({ _id: req.params.id })
+            .then(() => {
+              res.status(200).json({ message: "Objet supprimé !" });
+            })
+            .catch((error) => res.status(401).json({ error }));
+        });
+      }
+    })
+    .catch((error) => {
+      res.status(500).json({ error });
+    });
 };
 
+
 exports.addLikeOrDislike = (req, res, next) => {
-  console.log("Je suis dans la controller like");
-
-  //Affichage du req.body
-  console.log("---->CONTENU: req.body.like - ctrl like");
-  console.log(req.body.like);
-
-  //récuprere l'id dans l'url de la requête
-  console.log("---->CONTENU: req.params - ctrl like");
-  console.log(req.params);
-
-  //mise au format de l'id pour chercher l'objet correspondant
-  console.log("---->id en _id");
-  console.log({ _id: req.params.id });
-
   //Récuperer objet dans la BD
   Sauce.findOne({ _id: req.params.id })
     .then((objet) => {
-      console.log("---->CONTENU: promise : objet");
-      console.log(objet);
+      // console.log("---->CONTENU: promise : objet");
+      // console.log(objet);
 
       // Si usersliked est False et si like === 1
       if (!objet.usersLiked.includes(req.body.userId) && req.body.like === 1) {
-        console.log("les instructions seront exécuté");
-
         //Mis à jour BDD
         Sauce.updateOne(
           { _id: req.params.id },
@@ -129,8 +116,6 @@ exports.addLikeOrDislike = (req, res, next) => {
       }
 
       if (objet.usersLiked.includes(req.body.userId) && req.body.like === 0) {
-        console.log("--->userId est dans usersLiked et like = 0");
-
         //Mis à jour BDD
         Sauce.updateOne(
           { _id: req.params.id },
@@ -147,8 +132,6 @@ exports.addLikeOrDislike = (req, res, next) => {
         !objet.usersDisliked.includes(req.body.userId) &&
         req.body.like === -1
       ) {
-        console.log("--->userId est dans usersDisliked et disLikes = 1");
-
         //Mis à jour BDD
         Sauce.updateOne(
           { _id: req.params.id },
@@ -166,8 +149,6 @@ exports.addLikeOrDislike = (req, res, next) => {
         objet.usersDisliked.includes(req.body.userId) &&
         req.body.like === 0
       ) {
-        console.log("--->userId est dans usersDisliked et like = 0");
-
         //Mis à jour BDD
         Sauce.updateOne(
           { _id: req.params.id },
